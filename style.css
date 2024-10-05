@@ -1,0 +1,248 @@
+*{
+    margin: 0px;
+    font-family: "Josefin Slab", serif;
+}
+body{
+    overflow-x: hidden;
+}
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    overflow: hidden;
+}
+#text2{
+    text-wrap: nowrap;
+}
+.parallax img{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    overflow: hidden;
+}
+.parallax h1{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    letter-spacing: 40px;
+    font-size: 120px;
+    filter: drop-shadow(5px 5px 6px black);
+    color: white;
+    font-weight: 200;
+}
+.ex{
+    background-image: url(./Assets/fantasy-style-galaxy-background.jpg);
+    background-size: cover;
+    margin-top: -28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ex h1{
+    color: white;
+    padding-top: 30%;
+    z-index: 1;
+    letter-spacing: 1px;
+    font-size: 50px; 
+}
+#ufo{
+    width: 300px;
+}
+.sec {
+    display: flex;
+    overflow-x: scroll; 
+    white-space: nowrap; 
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 150%;
+    background-attachment: fixed;    
+}
+.secContainer{
+    background-image: url(./Assets/fantasy-style-galaxy-background.jpg);
+    margin-top: -2%;
+}
+.card {
+    margin: 3%;
+    flex: 0 0 auto; 
+    width: 300px;
+    margin-right: 15px; 
+    border: 1px solid #ccc;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    filter: brightness(0.2);
+    background-image: url(./Assets/space-universe-all-night-sky.jpg);
+    background-size: cover;
+    transition: 0.3s;
+    transform: skew(5deg);
+}
+.card.highlight {
+    transform: scale(1.2);
+    filter: brightness(1);
+    transition: 0.3s;
+    box-shadow: 0px 0px 15px rgb(6, 155, 255);
+}
+
+.card h2{
+    text-align: center;
+    font-size: 25px;
+    color: aqua;
+}
+
+.card p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10%;
+    text-wrap: wrap;
+    text-shadow: 2px 2px 5px black, -2px -2px 5px black, 2px -2px 5px black, -2px 2px 5px black;
+}
+.sec::-webkit-scrollbar {
+    display: none;
+}
+.voyage{
+    position: relative;
+    z-index: 2;
+    background-size: cover;
+}
+#voyagetext,#voyagetext1,#voyagetext2,#voyagetext3,#voyagetext4,#voyagetext5,#voyagetext6,#voyagetext7,#voyagetext8,#voyagetext9,#voyagetext10{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 105px;
+    text-wrap: nowrap;
+    padding-top: 90%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: #f9f9f9;
+    z-index: 2;
+}
+#voyagetext1,#voyagetext2,#voyagetext3,#voyagetext4,#voyagetext4,#voyagetext5,#voyagetext6,#voyagetext7,#voyagetext8,#voyagetext9,#voyagetext10{
+    color: transparent; 
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+#voyagetext2{
+    opacity: 0.9;
+}
+#voyagetext3{
+    opacity: 0.8;
+}
+#voyagetext4{
+    opacity: 0.7;
+}
+#voyagetext5{
+    opacity: 0.6;
+}
+#voyagetext6{
+    opacity: 0.5;
+}
+#voyagetext7{
+    opacity: 0.4;
+}
+#voyagetext8{
+    opacity: 0.3;
+}
+#voyagetext9{
+    opacity: 0;
+}
+#voyagetext10{
+    opacity: 0.1;
+}
+.showerimg{
+    width: 300px;
+}
+.shower{
+    position: relative;
+    z-index: -1;
+    height: 2000px;
+    background-image: url(./Assets/pexels-instawally-176851.jpg);
+    background-size: cover;
+}
+.shower img{
+    position: absolute;
+    z-index: 3;
+}
+#shower1 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    margin: -25% -15% 12% 8%;
+}
+
+#shower2 {
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    margin: 90% 7% 100% 6%;
+}
+
+#shower3 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin: 44% 6% 14% 5%;
+}
+
+#shower4 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    margin: -32% 4% 13% 9%;
+}
+
+#shower5 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: rotate(110deg);
+    margin: -21% 8% 11% 90%;
+}
+
+#shower6 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    margin: -29% 4% 12% 0%;
+}
+
+#shower7 {
+    position: absolute;
+    top: 60%;
+    left: 100%;
+    margin: -24% 5% 15% 6%;
+}
+
+#shower8 {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    margin: 82% 7% 13% 50%;
+}
+.end{
+    margin-top: 4%;
+    z-index: 2;
+    background-color: rgb(25, 25, 53);
+    box-shadow: 0px -14px 50px 100px rgba(25, 25, 53, 1);
+    padding: 30px;
+}
+.end h1{
+    font-size: 70px;
+    color: #f9f9f9;
+}
+.end p{
+    margin-top: 40px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: #ccc;
+    line-height: 40px;
+}
